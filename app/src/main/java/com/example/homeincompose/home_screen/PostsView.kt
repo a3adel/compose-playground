@@ -1,4 +1,4 @@
-package com.example.homeincompose
+package com.example.homeincompose.home_screen
 
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -18,6 +18,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
 import coil.compose.AsyncImage
+import com.example.homeincompose.R
 import com.example.homeincompose.data.UserFeedView
 
 @Composable

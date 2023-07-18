@@ -30,6 +30,7 @@ import com.example.homeincompose.data.FeedTypes
 import com.example.homeincompose.data.HomeHeader
 import com.example.homeincompose.data.getFeedTypes
 import com.example.homeincompose.data.provideHomeHeaderImages
+import com.example.homeincompose.home_screen.BuildUserFeedView
 import com.example.homeincompose.ui.theme.HomeInComposeTheme
 
 class MainActivity : ComponentActivity() {

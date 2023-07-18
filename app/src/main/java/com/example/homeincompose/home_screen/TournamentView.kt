@@ -1,4 +1,4 @@
-package com.example.homeincompose
+package com.example.homeincompose.home_screen
 
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border

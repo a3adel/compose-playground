@@ -1,4 +1,4 @@
-package com.example.homeincompose
+package com.example.homeincompose.home_screen
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
@@ -78,7 +78,7 @@ fun BuildUserFeedView() {
                     )
                     LazyRow {
                         for (tournament in getTournaments()) {
-                           item{ buildTournamentView(tournament = tournament)}
+                           item{ buildTournamentView(tournament = tournament) }
                         }
                     }
                 }
