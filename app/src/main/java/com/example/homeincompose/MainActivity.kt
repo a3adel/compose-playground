@@ -3,6 +3,7 @@ package com.example.homeincompose
 import android.os.Bundle
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
+import androidx.activity.viewModels
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.background
 import androidx.compose.foundation.border
@@ -32,8 +33,10 @@ import com.example.homeincompose.data.getFeedTypes
 import com.example.homeincompose.data.provideHomeHeaderImages
 import com.example.homeincompose.home_screen.BuildUserFeedView
 import com.example.homeincompose.ui.theme.HomeInComposeTheme
+import org.koin.androidx.viewmodel.ext.android.viewModel
 
 class MainActivity : ComponentActivity() {
+    private val viewModel by viewModel<HomeViewModel>()
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
